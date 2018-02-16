@@ -1,25 +1,14 @@
 {
   "name": "gitbook-plugin-laravel-auditing",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Replace links for gitbook",
   "main": "index.js",
   "repository": "https://github.com/owen-it/gitbook-plugin-laravel-auditing",
   "author": "Antério Vieira",
   "engines": {
-    "gitbook": ">=4.0.0-alpha.0"
+    "gitbook": "*"
   },
   "gitbook": {
-    "properties": {
-      "myConfigKey": {
-        "type": "string",
-        "default": "it's the default value",
-        "description": "It defines my awesome config!"
-      }
-    }
-  },
-  "scripts": {
-    "build-js": "gitbook-plugin build ./src/index.js ./_assets/plugin.js",
-    "prepublish": "npm run build-js"
   },
   "keywords": [
     "gitbook:social"

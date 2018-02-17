@@ -1,10 +1,10 @@
 module.exports = {
   // Map of hooks
   hooks: {
-    "page:before": function (page) {
-      page.content = page.content.replace('/docs/{{version}}/', '')
+    "summary:before": function (summary) {
+      summary.content = summary.content.replace('/docs/{{version}}/', '')
 
-      return page
+      return summary
     }
   },
 
@@ -12,5 +12,5 @@ module.exports = {
   blocks: {},
 
   // Map of new filters
-  filters: {}
+  filters: {},
 };

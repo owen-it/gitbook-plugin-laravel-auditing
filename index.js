@@ -2,7 +2,7 @@ module.exports = {
   // Map of hooks
   hooks: {
     "summary:before": function (summary) {
-      summary.content = summary.content.replace('/docs/{{version}}/', '')
+      summary.content = summary.content.replace('/doc/{{version}}/', '')
 
       return summary
     }
